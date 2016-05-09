@@ -4,7 +4,7 @@ config.tx_extbase {
             SJBR\StaticInfoTables\Domain\Model\Country {
                 mapping {
                     columns {
-                        cn_short_sk.mapOnProperty = shortNameSk
+                        cn_short_ua.mapOnProperty = shortNameUa
                     }
                 }
             }
@@ -12,7 +12,7 @@ config.tx_extbase {
             SJBR\StaticInfoTables\Domain\Model\CountryZone {
                 mapping {
                     columns {
-                        zn_name_sk.mapOnProperty = nameSk
+                        zn_name_ua.mapOnProperty = name_Ua
                     }
                 }
             }
@@ -20,8 +20,8 @@ config.tx_extbase {
             SJBR\StaticInfoTables\Domain\Model\Currency {
                 mapping {
                     columns {
-                        cu_name_sk.mapOnProperty = nameSk
-                        cu_sub_name_sk.mapOnProperty = subdivisionNameSk
+                        cu_name_ua.mapOnProperty = name_Ua
+                        cu_sub_name_ua.mapOnProperty = subdivisionName_Ua
                     }
                 }
             }
@@ -29,7 +29,7 @@ config.tx_extbase {
             SJBR\StaticInfoTables\Domain\Model\Language {
                 mapping {
                     columns {
-                        lg_name_sk.mapOnProperty = nameSk
+                        lg_name_ua.mapOnProperty = name_Ua
                     }
                 }
             }
@@ -37,7 +37,7 @@ config.tx_extbase {
             SJBR\StaticInfoTables\Domain\Model\Territory {
                 mapping {
                     columns {
-                        tr_name_sk.mapOnProperty = nameSk
+                        tr_name_ua.mapOnProperty = name_Ua
                     }
                 }
             }

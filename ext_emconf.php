@@ -1,37 +1,30 @@
 <?php
 
-########################################################################
-# Extension Manager/Repository config file for ext "static_info_tables_ua".
-#
-# Auto generated 28-08-2015 08:08
-#
-# Manual updates:
-# Only the data in the array - everything else is removed by next
-# writing. "version" and "dependencies" must not be touched!
-########################################################################
-
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Static Info Tables (ua)',
-    'description' => '(Ukrainian) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
+    'description' => '(Ukrainian) language pack for the Static Info Tables providing localized names for countries, 
+                       currencies and so on.',
     'category' => 'misc',
-    'shy' => 0,
-    'version' => '2.0.0',
-    'dependencies' => '',
-    'conflicts' => '',
-    'priority' => '',
-    'loadOrder' => '',
-    'TYPO3_version' => '4.0-0.0.0',
-    'PHP_version' => '4.1.0-0.0.0',
-    'module' => '',
+    'version' => '6.3.0',
     'state' => 'stable',
-    'uploadfolder' => 0,
+    'uploadfolder' => true,
     'createDirs' => '',
-    'modify_tables' => 'static_countries,static_languages,static_currencies,static_territories',
-    'clearcacheonload' => 0,
-    'lockType' => '',
-    'author' => 'Vasyl Mosiychuk',
-    'author_email' => 'vasyl@typo3.net.ua',
+    'clearcacheonload' => true,
+    'author' => 'Manuel Selbach',
+    'author_email' => 'manuel_selbach@yahoo.de',
     'author_company' => '',
-    'CGLcompliance' => '',
-    'CGLcompliance_note' => '',
+    'constraints' =>
+        [
+            'depends' =>
+                [
+                    'typo3' => '7.6.0-7.6.99',
+                    'static_info_tables' => '6.3.0-6.3.99',
+                ],
+            'conflicts' =>
+                [
+                ],
+            'suggests' =>
+                [
+                ],
+        ],
 ];
