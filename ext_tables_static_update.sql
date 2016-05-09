@@ -30,7 +30,7 @@ UPDATE static_territories SET tr_name_ua='Південна Азія' WHERE tr_is
 
 ## static_countries
 UPDATE static_countries SET cn_short_ua='Андорра' WHERE cn_iso_2='AD';
-UPDATE static_countries SET cn_short_ua='Об\'єднані Арабські Емірати' WHERE cn_iso_2='AE';
+UPDATE static_countries SET cn_short_ua="Об\'єднані Арабські Емірати" WHERE cn_iso_2='AE';
 UPDATE static_countries SET cn_short_ua='Афганістан' WHERE cn_iso_2='AF';
 UPDATE static_countries SET cn_short_ua='Антігуа і Барбуда' WHERE cn_iso_2='AG';
 UPDATE static_countries SET cn_short_ua='Ангилья' WHERE cn_iso_2='AI';
@@ -70,7 +70,7 @@ UPDATE static_countries SET cn_short_ua='Конго' WHERE cn_iso_2='CD';
 UPDATE static_countries SET cn_short_ua='Центрально-африканська Республіка' WHERE cn_iso_2='CF';
 UPDATE static_countries SET cn_short_ua='Конго' WHERE cn_iso_2='CG';
 UPDATE static_countries SET cn_short_ua='Швейцарія' WHERE cn_iso_2='CH';
-UPDATE static_countries SET cn_short_ua='Кот д\'Івуар' WHERE cn_iso_2='CI';
+UPDATE static_countries SET cn_short_ua="Кот д'Івуар" WHERE cn_iso_2='CI';
 UPDATE static_countries SET cn_short_ua='Острови Кука' WHERE cn_iso_2='CK';
 UPDATE static_countries SET cn_short_ua='Чілі' WHERE cn_iso_2='CL';
 UPDATE static_countries SET cn_short_ua='Камерун' WHERE cn_iso_2='CM';
@@ -201,7 +201,7 @@ UPDATE static_countries SET cn_short_ua='Папуа - Нова Гвінея' WH
 UPDATE static_countries SET cn_short_ua='Філіппіни' WHERE cn_iso_2='PH';
 UPDATE static_countries SET cn_short_ua='Пакістан' WHERE cn_iso_2='PK';
 UPDATE static_countries SET cn_short_ua='Польща' WHERE cn_iso_2='PL';
-UPDATE static_countries SET cn_short_ua='Сент-п\'єр і Мікелон' WHERE cn_iso_2='PM';
+UPDATE static_countries SET cn_short_ua="Сент-п'єр і Мікелон" WHERE cn_iso_2='PM';
 UPDATE static_countries SET cn_short_ua='Піткерн' WHERE cn_iso_2='PN';
 UPDATE static_countries SET cn_short_ua='Пуерто-Ріко' WHERE cn_iso_2='PR';
 UPDATE static_countries SET cn_short_ua='Палестинська територія' WHERE cn_iso_2='PS';
@@ -247,7 +247,7 @@ UPDATE static_countries SET cn_short_ua='Турція' WHERE cn_iso_2='TR';
 UPDATE static_countries SET cn_short_ua='Тринідад і Тобаго' WHERE cn_iso_2='TT';
 UPDATE static_countries SET cn_short_ua='Тувалу' WHERE cn_iso_2='TV';
 UPDATE static_countries SET cn_short_ua='Тайвань (Китай)' WHERE cn_iso_2='TW';
-UPDATE static_countries SET cn_short_ua='Танзанія, об\'єднана республіка' WHERE cn_iso_2='TZ';
+UPDATE static_countries SET cn_short_ua="Танзанія, об'єднана республіка" WHERE cn_iso_2='TZ';
 UPDATE static_countries SET cn_short_ua='Україна' WHERE cn_iso_2='UA';
 UPDATE static_countries SET cn_short_ua='Уганда' WHERE cn_iso_2='UG';
 UPDATE static_countries SET cn_short_ua='Малі Тихоокеанські Віддалені острови США' WHERE cn_iso_2='UM';
@@ -259,7 +259,7 @@ UPDATE static_countries SET cn_short_ua='Сент-Вінсент и Гренад
 UPDATE static_countries SET cn_short_ua='Венесуела' WHERE cn_iso_2='VE';
 UPDATE static_countries SET cn_short_ua='Віргінські острови, Британські' WHERE cn_iso_2='VG';
 UPDATE static_countries SET cn_short_ua='Віргінські острови, США' WHERE cn_iso_2='VI';
-UPDATE static_countries SET cn_short_ua='В\'єтнам' WHERE cn_iso_2='VN';
+UPDATE static_countries SET cn_short_ua="В'єтнам" WHERE cn_iso_2='VN';
 UPDATE static_countries SET cn_short_ua='Вануату' WHERE cn_iso_2='VU';
 UPDATE static_countries SET cn_short_ua='Уолліс і Футуна' WHERE cn_iso_2='WF';
 UPDATE static_countries SET cn_short_ua='Самоа' WHERE cn_iso_2='WS';
@@ -1038,7 +1038,7 @@ UPDATE static_languages SET lg_name_ua='Уйгурська' WHERE lg_iso_2='UG' 
 UPDATE static_languages SET lg_name_ua='Українська' WHERE lg_iso_2='UK' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Урду' WHERE lg_iso_2='UR' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Узбецька' WHERE lg_iso_2='UZ' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_ua='В\'єтнамська' WHERE lg_iso_2='VI' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_ua="В'єтнамська" WHERE lg_iso_2='VI' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Валлійська (Уельська)' WHERE lg_iso_2='CY' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Волоф' WHERE lg_iso_2='WO' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Коса' WHERE lg_iso_2='XH' AND lg_country_iso_2='';
@@ -1096,46 +1096,6 @@ UPDATE static_languages SET lg_name_ua='Санскрит' WHERE lg_iso_2='SA' AN
 UPDATE static_languages SET lg_name_ua='Волапюк' WHERE lg_iso_2='VO' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Ідиш' WHERE lg_iso_2='YI' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Авестійська' WHERE lg_iso_2='AE' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_ua='Церковно-слов\'янська' WHERE lg_iso_2='CU' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_ua="Церковно-слов 'янська" WHERE lg_iso_2='CU' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Ідо' WHERE lg_iso_2='IO' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_ua='Пали' WHERE lg_iso_2='PI' AND lg_country_iso_2='';
-
-
-## static_taxes
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='SK' AND tx_code='SKRST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='QC' AND tx_code='TVQ';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='' AND tx_code='GST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='MB' AND tx_code='MBRST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='BC' AND tx_code='BCRST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='ON' AND tx_code='ONRST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='NB' AND tx_code='HST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='NS' AND tx_code='HST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='PE' AND tx_code='PERST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CA' AND tx_zn_code='NL' AND tx_code='HST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='BE' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CZ' AND tx_zn_code='' AND tx_code='GST';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='DK' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='DE' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='EE' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='GR' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='ES' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='FR' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='IE' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='IT' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='CY' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='LV' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='LT' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='LU' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='HU' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='MT' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='NL' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='AT' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='PT' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='SI' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='SK' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='FI' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='SE' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='GB' AND tx_zn_code='' AND tx_code='VAT';
-UPDATE static_taxes SET tx_name_ua='' WHERE tx_country_iso_2='MX' AND tx_zn_code='' AND tx_code='IVA';
-
-
