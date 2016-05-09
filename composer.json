@@ -11,7 +11,7 @@
     }
   ],
   "replace": {
-    "sjbr/static_info_tables_sk": "*"
+    "sjbr/static_info_tables_ua": "*"
   },
   "require": {
     "typo3/cms-core": "7.6.*",
