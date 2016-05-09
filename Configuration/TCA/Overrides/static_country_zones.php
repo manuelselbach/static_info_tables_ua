@@ -1,10 +1,10 @@
 <?php
 defined('TYPO3_MODE') or die();
 
-$LL = 'LLL:EXT:static_info_tables_sk/Resources/Private/Language/locallang_db.xlf:static_country_zones_item.';
+$LL = 'LLL:EXT:static_info_tables_ua/Resources/Private/Language/locallang_db.xlf:static_country_zones_item.';
 
 $additionalFields = [
-    'zn_name_en' => 'zn_name_sk'
+    'zn_name_en' => 'zn_name_ua'
 ];
 foreach ($additionalFields as $sourceField => $destField) {
     $additionalColumns = [];
