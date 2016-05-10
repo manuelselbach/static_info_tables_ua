@@ -1,7 +1,7 @@
 {
   "name": "sjbr/static_info_tables_ua",
   "description": "(Ukrainian) language pack for the Static Info Tables providing localized names for countries,currencies and so on.",
-  "version": "6.3.0",
+  "version": "6.3.1",
   "type": "typo3-cms-extension",
   "license": "GPL-2.0+",
   "authors": [
