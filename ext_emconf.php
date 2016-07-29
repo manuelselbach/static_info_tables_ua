@@ -5,7 +5,7 @@ $EM_CONF[$_EXTKEY] = [
     'description' => '(Ukrainian) language pack for the Static Info Tables providing localized names for countries, 
                        currencies and so on.',
     'category' => 'misc',
-    'version' => '6.3.2',
+    'version' => '6.3.3',
     'state' => 'stable',
     'uploadfolder' => true,
     'createDirs' => '',
