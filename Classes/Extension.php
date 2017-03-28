@@ -1,11 +1,11 @@
 <?php
-namespace SJBR\StaticInfoTables\Domain\Model;
+
+namespace Mselbach\StaticInfoTablesUa;
 
 /***************************************************************
  *  Copyright notice
  *
- *  (c) 2016 Manuel Selbach <manuel_selbach@yahoo.de>
- *
+ *  (c) 2017 Manuel Selbach <manuel_selbach@yahoo.de>
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -16,6 +16,9 @@ namespace SJBR\StaticInfoTables\Domain\Model;
  *
  *  The GNU General Public License can be found at
  *  http://www.gnu.org/copyleft/gpl.html.
+ *  A copy is found in the text file GPL.txt and important notices to the license
+ *  from the author is found in LICENSE.txt distributed with these scripts.
+ *
  *
  *  This script is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -24,39 +27,11 @@ namespace SJBR\StaticInfoTables\Domain\Model;
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
-/**
- * The Territory model
- *
- * @copyright Copyright belongs to the respective authors
- * @license   http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
-class Territory extends AbstractEntity
+
+class Extension
 {
     /**
-     * name of the territory
-     * @var string
+     * @var string The extension key
      */
-    protected $nameUa = '';
-
-    /**
-     * Sets the name of the territory
-     *
-     * @param string $nameUa
-     *
-     * @return void
-     */
-    public function setNameUa($nameUa)
-    {
-        $this->nameUa = $nameUa;
-    }
-
-    /**
-     * Returns the name of the territory
-     *
-     * @return string
-     */
-    public function getNameUa()
-    {
-        return $this->nameUa;
-    }
+    const EXTENSION_KEY = 'static_info_tables_ua';
 }
