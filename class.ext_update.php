@@ -1,6 +1,6 @@
 <?php
 
-namespace SJBR\StaticInfoTablesUa;
+namespace Mselbach\StaticInfoTablesUa;
 
 /***************************************************************
  *  Copyright notice
@@ -33,8 +33,6 @@ use SJBR\StaticInfoTables\Utility\DatabaseUpdateUtility;
 
 class ext_update
 {
-    const EXTENSION_KEY = 'static_info_tables_ua';
-
     /**
      * Main function, returning the HTML content
      *
@@ -53,10 +51,10 @@ class ext_update
         // Update the database
         /** @var DatabaseUpdateUtility $databaseUpdateUtility */
         $databaseUpdateUtility = $objectManager->get(DatabaseUpdateUtility::class);
-        $databaseUpdateUtility->doUpdate(self::EXTENSION_KEY);
+        $databaseUpdateUtility->doUpdate(Extension::EXTENSION_KEY);
 
         $updateLanguageLabels = LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables');
-        $content.= '<p>' . $updateLanguageLabels . ' '. self::EXTENSION_KEY . '</p>';
+        $content .= '<p>' . $updateLanguageLabels . ' ' . Extension::EXTENSION_KEY . '</p>';
         return $content;
     }
 
