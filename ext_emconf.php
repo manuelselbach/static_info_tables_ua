@@ -5,7 +5,7 @@ $EM_CONF[$_EXTKEY] = [
     'description' => '(Ukrainian) language pack for the Static Info Tables providing localized names for countries, 
                        currencies and so on.',
     'category' => 'misc',
-    'version' => '6.4.0',
+    'version' => '6.5.0',
     'state' => 'stable',
     'uploadfolder' => true,
     'createDirs' => '',
@@ -19,7 +19,7 @@ $EM_CONF[$_EXTKEY] = [
                 [
                     'typo3' => '7.6.0-8.99.99',
                     'php' => '5.6.0-0.0.0',
-                    'static_info_tables' => '6.4.0-6.4.99',
+                    'static_info_tables' => '6.5.0-6.5.99',
                 ],
             'conflicts' =>
                 [

@@ -40,7 +40,6 @@ class ext_update
      */
     public function main()
     {
-        $content = '';
         $objectManager = GeneralUtility::makeInstance(ObjectManager::class);
 
         // Clear the class cache
@@ -54,8 +53,7 @@ class ext_update
         $databaseUpdateUtility->doUpdate(Extension::EXTENSION_KEY);
 
         $updateLanguageLabels = LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables');
-        $content .= '<p>' . $updateLanguageLabels . ' ' . Extension::EXTENSION_KEY . '</p>';
-        return $content;
+        return '<p>' . $updateLanguageLabels . ' ' . Extension::EXTENSION_KEY . '</p>';
     }
 
     public function access()
