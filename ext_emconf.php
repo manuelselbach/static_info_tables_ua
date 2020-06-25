@@ -2,8 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Static Info Tables (ua)',
-    'description' => '(Ukrainian) language pack for the Static Info Tables providing localized names for countries, 
-                       currencies and so on.',
+    'description' => '(Ukrainian) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
     'category' => 'misc',
     'version' => '6.7.0',
     'state' => 'stable',
@@ -12,12 +11,11 @@ $EM_CONF[$_EXTKEY] = [
     'clearcacheonload' => true,
     'author' => 'Manuel Selbach',
     'author_email' => 'manuel_selbach@yahoo.de',
-    'author_company' => '',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-9.5.99',
-            'php' => '7.0.0-0.0.0',
-            'static_info_tables' => '6.7.0-6.7.99',
+            'typo3' => '9.5.0-10.4.99',
+            'static_info_tables' => '6.9.0-6.9.99',
+            'php' => '7.2.0-0.0.0',
         ],
         'conflicts' => [],
         'suggests' => [],
