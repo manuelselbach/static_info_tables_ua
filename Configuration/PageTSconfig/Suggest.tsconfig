@@ -1,7 +1,7 @@
 # ***************************************************************************************
 # Translate currency labels in suggestions
 # ***************************************************************************************
-[language = *ua*]
+[siteLanguage("twoLetterIsoCode") == "ua"]
 	TCEFORM.sys_language.static_lang_isocode.suggest.default.additionalSearchFields = lg_name_ua
 	TCEFORM.sys_language.static_lang_isocode.suggest.default.orderBy = lg_name_ua
 	TCEFORM.static_countries.cn_currency_uid.suggest.default.additionalSearchFields = cu_name_ua
