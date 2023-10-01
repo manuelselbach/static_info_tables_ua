@@ -20,7 +20,7 @@
     }
   ],
   "replace": {
-    "mselbach/static-info-tables-ua": "self.version"
+    "typo3-ter/static-info-tables-ua": "self.version"
   },
   "require": {
     "php": ">=7.4",
