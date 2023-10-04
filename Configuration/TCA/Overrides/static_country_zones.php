@@ -1,7 +1,5 @@
 <?php
 
-defined('TYPO3_MODE') || die();
-
 $initialize = function ($dataSetName) {
     $additionalFields = [
         'zn_name_en' => 'zn_name_ua'
